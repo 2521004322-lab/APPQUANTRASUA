@@ -16,6 +16,7 @@ MENU_TEA = {
     "Trà Sữa Truyền Thống": 30000,
     "Trà Sữa Trân Châu Đường Đen": 35000,
     "Trà Sữa Thái Xanh": 32000,
+    "Trà Sen Vàng":56000,
     "Trà Sữa Ô Long": 35000,
     "Trà Sữa Matcha": 38000,
     "Trà Sữa Dâu Tây": 35000,
@@ -77,7 +78,7 @@ def create_txt_invoice(customer_name, cart, total_amount, discount, final_amount
 # ---------------------------------------------------------
 # GIAO DIỆN CHÍNH
 # ---------------------------------------------------------
-st.title("QUÁN TRÀ SỮA MR BÌNH")
+st.title("QUÁN TRÀ SỮA HỒ PHẠM ÁI THƯ")
 st.markdown("---")
 
 col_left, col_right = st.columns([1.1, 0.9])
